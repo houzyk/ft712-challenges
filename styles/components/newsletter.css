@@ -1,0 +1,43 @@
+.news-email-column {
+  padding: 3rem;
+  background-color: #303030e3;
+  height: 50%;
+}
+
+.news-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.news_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.news-module-bg {
+  width: 760px;
+  height: 320px;
+}
+
+
+.module-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #30303040;
+  z-index: -3;
+}
+
+.module-title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.module-text {
+  font-size: large;
+  color: cadetblue;
+}

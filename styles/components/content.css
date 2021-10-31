@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+a {
+  font-size: large;
+  color: rgb(91, 148, 148);
+  text-decoration: none;
+  padding: 16px 16px 0 16px;
+  transition: 0.4s ease-in-out;
+}
+
+li > a:hover {
+  border-bottom: solid 1px #303030;
+}
+
+.team-text-section {
+  width: 50%;
+}
+
+svg {
+  width: 50vw;
+}
