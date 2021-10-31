@@ -1,3 +1,5 @@
+/* Components */
+
 @import "components/banner.css";
 @import "components/button.css";
 @import "components/cards.css";
@@ -7,3 +9,7 @@
 @import "components/navbar.css";
 @import "components/newsletter.css";
 @import "components/prefooter.css";
+
+/* Pages */
+
+@import "pages/index.css";

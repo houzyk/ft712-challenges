@@ -11,3 +11,6 @@ window.addEventListener("scroll", () => {
     navWrapper.classList.remove("top");
   }
 });
+
+
+// Dropdown JS
