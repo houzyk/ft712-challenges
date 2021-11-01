@@ -1,5 +1,6 @@
 .content-section {
   display: flex;
+  margin: 10px 250px;
 }
 
 .team-text-section {
@@ -7,9 +8,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 20px;
+  padding: 20px;
 }
 
-svg {
+.team-text-section > p{
+  text-align: justify;
+}
+
+.content-section > svg {
   width: 50vw;
 }

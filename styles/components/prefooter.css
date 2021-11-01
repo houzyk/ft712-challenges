@@ -10,6 +10,7 @@
   width: 15%;
   background-color: #303030;
   z-index: -1;
+  padding-bottom: 10px;
 }
 
 .pf-child {
@@ -20,6 +21,7 @@
   background-color: #797979;
   z-index: -20;
   margin-left: 1px;
+  padding-bottom: 10px;
 }
 
 .inside {
