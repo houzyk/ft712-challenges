@@ -14,9 +14,8 @@
 
 .navbar {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   background-color: #e2e2e2cb;
   margin: 0;
   width: 100vw;
@@ -28,7 +27,7 @@
   border-radius: 100px;
   background-color: white;
   height: 100px;
-  width: 80vw;
+  width: 81vw;
 }
 
 .navbar-logo {
