@@ -14,8 +14,7 @@ window.addEventListener("scroll", () => {
 // Email in NavBar
 const form = document.querySelector('form');
 const formInput = document.querySelector('.input-element');
-const navAccout = document.getElementById('navAccount');
-
+const navAccount = document.getElementById('navAccount');
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   navAccount.innerText = formInput.value;
