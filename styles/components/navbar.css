@@ -5,6 +5,7 @@
   position: sticky;
   top: 0px;
   transition: 0.8s all;
+  z-index: 3;
 }
 
 .top {
@@ -100,10 +101,4 @@
 
 .dropdown-content-right a:hover {background-color: #ddd;}
 .dropdown-content-left a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content-right {
-}
-.dropdown:hover .dropdown-content-left {
-}
-
 .dropdown:hover .dropbtn {border-bottom: solid 1px #303030;}

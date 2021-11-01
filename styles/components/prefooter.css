@@ -1,12 +1,13 @@
 .pf-wrapper {
   display: flex;
   justify-content: flex-start;
+  margin: 60px 10px;
 }
 
 .pf-index {
   position: relative;
   left: 10px;
-  height: 230px;
+  height: 250px;
   width: 15%;
   background-color: #303030;
   z-index: -1;
@@ -16,7 +17,7 @@
 .pf-child {
   position: relative;
   left: 10px;
-  height: 230px;
+  height: 250px;
   width: 15%;
   background-color: #797979;
   z-index: -20;
@@ -64,6 +65,7 @@ i {
 #pointer-child {
   position: absolute;
   top: 20px;
+  left: -1px;
   width: 0;
   height: 0;
   border-top: 15px solid transparent;
