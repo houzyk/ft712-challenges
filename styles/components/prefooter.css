@@ -12,9 +12,11 @@
   background-color: #303030;
   z-index: -1;
   padding-bottom: 10px;
+  font-size: small;
 }
 
 .pf-child {
+  font-size: small;
   position: relative;
   left: 10px;
   height: 250px;
@@ -25,21 +27,11 @@
   padding-bottom: 10px;
 }
 
-.inside {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  text-align: center;
-  color: white;
-  height: 100%;
-}
-
 .inside-normal {
   padding-top: 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
   color: white;
