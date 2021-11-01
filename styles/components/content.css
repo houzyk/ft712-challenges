@@ -3,6 +3,10 @@
   margin: 10px 250px;
 }
 
+.content-section > svg {
+  width: 50vw;
+}
+
 .team-text-section {
   width: 50%;
   display: flex;
@@ -13,8 +17,4 @@
 
 .team-text-section > p{
   text-align: justify;
-}
-
-.content-section > svg {
-  width: 50vw;
 }

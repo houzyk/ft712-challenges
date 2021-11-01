@@ -17,7 +17,9 @@ const formInput = document.querySelector('.input-element');
 const navAccount = document.getElementById('navAccount');
 form.addEventListener("submit", (event) => {
   event.preventDefault();
-  navAccount.innerText = formInput.value;
+  if (formInput.value !== "") {
+    navAccount.innerText = formInput.value;
+  }
 });
 
 // Dropdown JS

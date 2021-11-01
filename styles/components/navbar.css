@@ -8,10 +8,6 @@
   z-index: 3;
 }
 
-.top {
-  top: 25px;
-}
-
 .navbar {
   display: flex;
   justify-content: center;
@@ -21,13 +17,6 @@
   width: 100vw;
   z-index: 999;
   transition: 0.8s all;
-}
-
-.navbar-white {
-  border-radius: 100px;
-  background-color: white;
-  height: 100px;
-  width: 90vw;
 }
 
 .navbar-logo {
@@ -47,6 +36,18 @@
   padding-left: 10px;
   padding-right: 10px;
   margin: 0;
+}
+
+/* Used in JS */
+.top {
+  top: 25px;
+}
+
+.navbar-white {
+  border-radius: 100px;
+  background-color: white;
+  height: 100px;
+  width: 90vw;
 }
 
 /* Navbar Dropdowns */
